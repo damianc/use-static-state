@@ -17,6 +17,9 @@ npm i -P use-static-state
 ## Counter Example
 
 ```
+import React from 'react';
+import useStaticState from 'use-static-state';
+
 function Counter() {
   const [getCounter, setCounter, refreshCounter] = useStaticState(0);
 
