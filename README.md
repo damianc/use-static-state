@@ -5,7 +5,7 @@ Static version of the `useState()` hook.
 Component is not re-rendered when state gets changed till _force update_ function is called.
 
 ```
-const [getCounter, setCounter, refreshCounter] = useStaticState(0);
+const [getValue, setValue, forceUpdate] = useStaticState(0);
 ```
 
 ## Install
@@ -27,7 +27,7 @@ function Counter() {
     setCounter(getCounter() + 1);
 
     // or:
-    
+
     setCounter(counter => counter + 1);
   }
 
