@@ -1,6 +1,6 @@
 {
   "name": "use-static-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Static version of the `useState()` hook.",
   "main": "index.js",
   "scripts": {
