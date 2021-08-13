@@ -25,6 +25,10 @@ function Counter() {
 
   function increase() {
     setCounter(getCounter() + 1);
+
+    // or:
+    
+    setCounter(counter => counter + 1);
   }
 
   function refresh() {

@@ -6,7 +6,13 @@ export default function useStaticState(initialValue) {
 
   return [
     () => state.current,
-    (value) => state.current = value,
+    value => {
+      if (typeof value === 'function') {
+        state.current = value(state.current);
+      } else {
+        state.current = value;
+      }
+    },
     () => tick(ticks + 1)
   ];
 }
