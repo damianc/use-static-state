@@ -8,6 +8,12 @@ Component is not re-rendered when state gets changed till _force update_ functio
 const [getCounter, setCounter, refreshCounter] = useStaticState(0);
 ```
 
+## Install
+
+```
+npm i -P use-static-state
+```
+
 ## Counter Example
 
 ```
