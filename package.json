@@ -1,0 +1,19 @@
+{
+  "name": "use-static-state",
+  "version": "1.0.0",
+  "description": "Static version of the `useState()` hook.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianc/use-static-state.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damianc/use-static-state/issues"
+  },
+  "homepage": "https://github.com/damianc/use-static-state#readme"
+}
